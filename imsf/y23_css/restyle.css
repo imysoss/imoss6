@@ -1,0 +1,261 @@
+
+
+/* ------ 迅雷下载 -------*/
+.re-mox {
+    background: #fff;
+    border: 1px solid #EEE;
+    clear: both;
+    padding: 3px;
+    border-top: 0;
+}
+.re-mox a {
+    color: #333;
+}
+.re-mox div {
+    display: block;
+}
+.re-mox .title {
+    border-bottom: 1px solid #d6d6d6;
+    color: #3e4454;
+    padding: 0 10px;
+}
+.re-mox .down-ico, .re-mox .kk-ico {
+    background: rgba(0, 0, 0, 0) url(https://wxt.sinaimg.cn/large/6e6880degy1gfwb2dlf0xj200n00n0sk.jpg) no-repeat scroll 0 center;
+    display: inline;
+    float: left;
+    height: 23px;
+    margin-right: 3px;
+    overflow: hidden;
+    width: 23px;
+}
+.re-mox .title span {
+    float: unset;
+}
+.re-mox h3 {
+    display: block;
+    font-size: 1.11em;
+    margin: 0.3em 0;
+}
+.re-mox .title h3 span.small-text, .re-mox .title h3 a {
+    color: #6B6E75;
+    float: none!important;
+    font-weight: normal;
+    font-size: 0.84em;
+}
+.re-mox .title h3 a {
+    color: #00D;
+    text-decoration: underline;
+}
+.re-mox .downlist ul {
+    padding: 6px 0 0;
+    height: 100%;
+    overflow: hidden;
+    list-style: none;
+    display:inline-block;
+    width: 100%;
+    max-width: 680px;
+}
+.re-mox .downlist li {
+    border-bottom: 1px solid #EBE6ED;
+    line-height: 30px;
+    list-style-type: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    white-space:nowrap;
+    display:block;
+    display:inline-block;
+    width: 97%;
+}
+.re-mox .downlist li i {
+    display: block;
+    float: left;
+    width: 30px;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 6px;
+}
+.re-mox .downlist li i input {
+    vertical-align: middle;
+}
+.re-mox .downlist p {
+    float: left;
+    padding-left: 10px;
+    width: auto;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: inline-block;
+    margin: 2px 10px;
+}
+.re-mox .downlist span {
+    float: right;
+    margin-top: 2px;
+}
+.re-mox .downlist span b {
+    padding: 0 10px;
+    font-weight: normal;
+    color: #6B6E75;
+}
+.re-mox .downlist span a.d5, .downlist span a.d5:visited {
+    background: #249ff1;
+}
+.re-mox .downlist span a, .downlist span a:visited {
+    margin-right: 6px;
+    color: #fff;
+    display: inline-block;
+    width: 68px;
+    height: 26px;
+    line-height: 26px;
+    background: #FF9900;
+    text-align: center;
+}
+.re-mox a:link {
+    text-decoration: none;
+}
+.re-mox .ckbox p {
+    width: auto;
+    padding-bottom: 1px;
+    height: auto;
+    margin: 6px 8px 0 8px;
+}
+.re-mox .downlist .ckbox a, .downlist .ckbox a:visited {
+    display: inline-block;
+    width: 133px;
+    height: 26px;
+    line-heighT: 26px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    background-image: linear-gradient(180deg, #F8F8F8, #E8E8E8);
+    color: #222;
+    font-size: 0.9em;
+}
+.re-mox .downlist .ckbox a:hover {
+    color: #f00;
+}
+
+.re-ff-forum button {
+    width: 6em;
+}
+
+.re-dl-horizontal div{
+    display: inline-block;
+    width: 100%;
+    min-height: 1.5em;
+}
+.re-dl-horizontal div dt{
+    display: inline-block;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}
+.re-dl-horizontal div dd{
+    display: inline-block;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    max-width: 78%;
+    overflow-x: auto;
+}
+.re-xldl-stui-pannel_hd {
+    padding-bottom: 0;
+}
+.re-xldl-stui-pannel_bd{
+    padding-top: 0;
+}
+@media (max-width:768px){
+    .re-mox .down-ico, .re-mox .kk-ico {
+        display: none;
+    }
+    .re-mox .title h3 .large-text {
+        display: none;
+    }
+    .stui-pannel-box-pp {
+        padding: 10px 0px;
+    }
+    .stui-pannel-box-pp [class*=col-] {
+        padding: 5px 0px;
+    }
+    .stui-pannel-box-pp .stui-player__detail>.title {
+        padding: 0 10px;
+    }
+    .stui-pannel-box-pp .stui-player__detail>.data {
+        padding: 0 10px;
+    }
+    .stui-pannel-box-pp>.col-pd {
+        padding: 0 10px;
+    }
+}
+
+
+/* ----------- */
+
+.stui-header__menu li a:hover {
+    color: #FF9900!important;
+}
+
+.btn-disabled{
+    color: #AAA;
+}
+
+
+/* ----------- */
+
+.re-play-eplist ul {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.re-play-eplist ul li {
+    display: inline-block;
+}
+
+/* play fullscn ------- */
+
+
+.fullscn {
+	display:none;
+	position:absolute;
+	right:10px;
+	top:10px;
+	color:#fff;
+	text-shadow:0 0 3px rgba(0,0,0,.5);
+	font-size:14px;
+	font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+	text-rendering:optimizeLegibility;
+	cursor:pointer
+}
+
+#fullplayleft {
+	position:fixed!important;
+	top:0!important;
+	left:0!important;
+	bottom:0!important;
+	width:100%!important;
+	height:100%!important;
+    margin-top:0!important;
+    padding:0!important;
+	z-index:9999!important;
+}
+
+
+
+/* --------- */
+
+.re-catalog-table .stui-screen__list {
+    overflow-x: auto;
+    white-space: nowrap;
+    height: auto;
+    min-height: 40px;
+}
+
+
+@media (max-width: 1024px) {
+    .stui-header__menu li {
+        margin-right: 17px;
+        display: inline-block;
+        float: unset;
+    }
+    .stui-header__menu {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
